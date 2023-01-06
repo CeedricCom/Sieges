@@ -11,6 +11,7 @@
 modules:
 - formats
 - filters
+- chat
 
 join-quit:
   # This option handles if you want to disable the default join-quit messages.
@@ -104,7 +105,7 @@ chat:
     world: ''
     radius: 0
     cooldown:
-      time: 0
+      time: 3
       message: <P> &cYou can not send another message in {time} seconds.
     format: ' &7{player} &8: &7{message}'
 
