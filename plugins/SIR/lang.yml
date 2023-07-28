@@ -90,6 +90,7 @@ commands:
     select: <P> Please select a valid announce from&a announces.yml
   # The /msg and /reply commands.
   msg-reply:
+    empty-message: <P> &cYou can not send an empty message.
     need-player: <P> &cYou need a player to use this command.
     not-player: <P> &cThe player {target} does not exist.
     not-replied: <P> &cYou did not send a message to a player before.
@@ -101,6 +102,7 @@ commands:
       message: ' &6{sender} &8> &eME&7: &f{message}'
       sound: ENTITY_PLAYER_LEVELUP
     console-name: '&cConsole'
+    console-format: ' &6{sender} &8> &e{receiver}&7: &f{message}'
   # The /ignore command.
   ignore:
     help:

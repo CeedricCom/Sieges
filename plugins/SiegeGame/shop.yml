@@ -153,7 +153,7 @@ shop:
     enchantments: []
     item-flags: []
     commands: []
-  baked_potatoes:
+  golden_carrot:
     material: GOLDEN_CARROT
     slot: 6
     amount: 64
