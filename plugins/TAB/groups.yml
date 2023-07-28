@@ -19,8 +19,8 @@ _DEFAULT_:
   tagprefix: "%rel_siegegame_rel_player_color%"
   customtabname: "%player_name%"
   customtagname: ""
-  tabsuffix: "%vault-suffix%%afk%"
-  tagsuffix: "%vault-suffix%%afk%"
+  tabsuffix: ""
+  tagsuffix: ""
 
 per-world:
   world1:

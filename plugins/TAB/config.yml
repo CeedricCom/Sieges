@@ -129,9 +129,6 @@ placeholder-output-replacements:
   '%essentials_vanished%':
     'yes': '&7| Vanished'
     'no': ''
-  '%afk%':
-    true: ''
-    false: ''
   '%essentials_nickname%':
     '%essentials_nickname%': '%player%'
 conditions:
