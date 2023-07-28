@@ -21,9 +21,7 @@ The following plugins are missing from this repository as they are paid, but the
 
 Connect to the server on localhost:25567
 
-## Installing new maps
-
-To install new maps on the minigame, follow the tutorial available in the readme <a href="https://github.com/CeedricCom/SiegeGame">here</a>.
+To install new maps and customise configuration (such as shop and respawn timers), follow the tutorial available in the readme <a href="https://github.com/CeedricCom/SiegeGame">here</a>.
 
 ## Related Repositories
 
