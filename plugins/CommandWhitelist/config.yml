@@ -1,0 +1,42 @@
+
+# Messages use MiniMessage formatting (https://docs.adventure.kyori.net/minimessage/format)
+messages:
+  prefix: '<color:#ed8200>[ceedric.com]</color:#ed8200> '
+  command_denied: <color:#588cfc>discord.ceedric.com</color:#588cfc>
+  subcommand_denied: <color:#588cfc>discord.ceedric.com</color:#588cfc>
+  no_permission: <color:#588cfc>discord.ceedric.com</color:#588cfc>
+  no_such_subcommand: <color:#588cfc>discord.ceedric.com</color:#588cfc>
+  config_reloaded: <color:#588cfc>discord.ceedric.com</color:#588cfc>
+  added_to_whitelist: <yellow>Whitelisted command <gold>%s <yellow>for permission
+    <gold>%s
+  removed_from_whitelist: <yellow>Removed command <gold>%s <yellow>from permission
+    <gold>%s
+  group_doesnt_exist: <red>Group doesn't exist or error occured
+
+# Do not enable if you don't have issues with aliased commands.
+# This requires server restart to take effect.
+use_protocollib: false
+groups:
+  default:
+    commands:
+    - t
+    - resources
+    - rally
+    - combattimer
+    - ct
+    - hub
+    - msg
+    - kit
+    - kits
+    subcommands: []
+  moderator:
+    commands:
+    - vanish
+    - matrix
+    - tpo
+    - tpohere
+    - tppos
+    - v
+    - gmsp
+    - gms
+    subcommands: []

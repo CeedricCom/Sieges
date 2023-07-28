@@ -1,0 +1,335 @@
+shop:
+  diamond_sword:
+    material: DIAMOND_SWORD
+    slot: 0
+    price: 0
+    amount: 1
+    maps:
+      - "all"
+    display-name: '&bDiamond Sword'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - sharpness;5
+      - unbreaking;3
+      - fire_aspect;2
+    item-flags:
+      - 'hide_attributes'
+    commands: []
+  diamond_helmet:
+    material: DIAMOND_HELMET
+    slot: 1
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&bDiamond Helmet'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - protection;4
+      - unbreaking;3
+    item-flags:
+      - 'hide_attributes'
+  diamond_chestplate:
+    material: DIAMOND_CHESTPLATE
+    slot: 2
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&bDiamond Chestplate'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - protection;4
+      - unbreaking;3
+    item-flags:
+      - 'hide_attributes'
+    commands: []
+  diamond_leggings:
+    material: DIAMOND_LEGGINGS
+    slot: 3
+    price: 0
+    amount: 1
+    maps:
+      - "all"
+    display-name: '&bDiamond Leggings'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - protection;4
+      - unbreaking;3
+    item-flags:
+      - 'hide_attributes'
+    commands: []
+  diamond_boots:
+    material: DIAMOND_BOOTS
+    slot: 4
+    price: 0
+    amount: 1
+    maps:
+      - "all"
+    display-name: '&bDiamond Boots'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - protection;4
+      - depth_strider;3
+      - unbreaking;3
+      - feather_falling;10
+    item-flags:
+      - 'hide_attributes'
+    commands: []
+  ender_pearl:
+    material: ENDER_PEARL
+    slot: 5
+    amount: 16
+    price: 0
+    maps:
+      - "all"
+    display-name: '&fEnder Pearl'
+    includes-item: 'true'
+    includes-item-exact: 'false'
+    lore:
+      - '&aFREE'
+    enchantments: []
+    item-flags: []
+    commands: []
+  diamond_axe:
+    material: DIAMOND_AXE
+    slot: 17
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&bDiamond Axe'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - efficiency;8
+      - unbreaking;3
+    item-flags: []
+    commands: []
+  cobblestone:
+    material: COBBLESTONE
+    slot: 25
+    amount: 64
+    price: 0
+    maps:
+      - "all"
+    display-name: '&fCobblestone'
+    includes-item: 'true'
+    includes-item-exact: 'false'
+    lore:
+      - '&aFREE'
+    enchantments: []
+    item-flags: []
+    commands: []
+  oak_planks:
+    material: OAK_PLANKS
+    slot: 26
+    amount: 64
+    price: 0
+    maps:
+      - "all"
+    display-name: '&fOak Planks'
+    includes-item: 'true'
+    includes-item-exact: 'false'
+    lore:
+      - '&aFREE'
+    enchantments: []
+    item-flags: []
+    commands: []
+  golden_carrot:
+    material: GOLDEN_CARROT
+    slot: 6
+    amount: 64
+    price: 0
+    maps:
+      - "all"
+    display-name: '&fGolden Carrot'
+    includes-item: 'true'
+    includes-item-exact: 'false'
+    lore:
+      - '&aFREE'
+    enchantments: []
+    item-flags: []
+    commands: []
+  diamond_pickaxe:
+    material: DIAMOND_PICKAXE
+    slot: 7
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&bDiamond Pickaxe'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    custom-nbt:
+      - 'custom-properties;super-breaker'
+    lore:
+      - '&f'
+      - '&6Includes Super Breaker'
+      - '&3Shift + Right Click'
+      - '&f'
+      - '&aFREE'
+    enchantments:
+      - efficiency;5
+      - unbreaking;3
+    item-flags: 
+      - 'hide_attributes'
+    commands: []
+  diamond_shovel:
+    material: DIAMOND_SHOVEL
+    slot: 8
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&bDiamond Shovel'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    enchantments:
+      - efficiency;5
+      - unbreaking;3
+    item-flags: []
+    commands: []
+  cobweb:
+    material: COBWEB
+    slot: 9
+    amount: 3
+    price: 15
+    maps:
+      - "all"
+    display-name: '&fCobweb'
+    includes-item: 'true'
+    includes-item-exact: 'false'
+    lore:
+      - '&a15 XP Levels'
+    enchantments: []
+    item-flags: []
+    commands: []
+  slow_falling:
+    material: SPLASH_POTION
+    slot: 10
+    amount: 1
+    price: 20
+    maps:
+      - "all"
+    display-name: '&fSlow Falling'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&a20 XP Levels'
+    potion-effects:
+      - 'slow_falling,30,0,false,true,true'
+    potion-color: '#FCF4D5'
+    enchantments: []
+    item-flags: []
+    commands: []
+  slowness:
+    material: SPLASH_POTION
+    slot: 11
+    amount: 1
+    price: 20
+    maps:
+      - "all"
+    display-name: '&fSlowness'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&a20 XP Levels'
+    potion-effects:
+      - 'slowness,30,0,false,true,true'
+    potion-color: '#5C6E83'
+    enchantments: []
+    item-flags: []
+    commands: []
+  health_potion:
+    material: SPLASH_POTION
+    slot: 18
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&cHealth Potion'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    potion-effects:
+      - 'instant_health,0,1,false,true,true'
+    potion-color: '#f82423'
+    enchantments: []
+    item-flags: []
+    commands: []
+  speed_potion:
+    material: SPLASH_POTION
+    slot: 19
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&3Speed II'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    potion-effects:
+      - 'speed,90,1,false,true,true'
+    potion-color: '#7cafc6'
+    enchantments: []
+    item-flags: []
+    commands: []
+  fire_res:
+    material: SPLASH_POTION
+    slot: 20
+    amount: 1
+    price: 0
+    maps:
+      - "all"
+    display-name: '&6Fire Resistance'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&aFREE'
+    potion-effects:
+      - 'fire_resistance,480,0,false,true,true'
+    potion-color: '#e49a3a'
+    enchantments: []
+    item-flags: []
+    commands: []
+  regen:
+    material: SPLASH_POTION
+    slot: 21
+    amount: 1
+    price: 10
+    maps:
+      - "all"
+    display-name: '&dRegeneration'
+    includes-item: 'true'
+    includes-item-exact: 'true'
+    lore:
+      - '&a10 XP Levels'
+    potion-effects:
+      - 'regeneration,90,0,false,true,true'
+    potion-color: '#cd5cab'
+    enchantments: []
+    item-flags: []
+    commands: []
+shop-name: 'Shop'

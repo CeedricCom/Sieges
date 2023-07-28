@@ -1,0 +1,115 @@
+type:
+  task:
+  - ' &e{player}&7 has got the {low-type} <hover=[&7{description}]>&a{adv}</text>'
+  - '[cmd] minecraft:experience add {player} 100 points'
+  goal:
+  - ' &e{player}&7 has reached the {type} <hover=[&7{description}]>&b{adv}</text>'
+  - '[cmd] minecraft:experience add {player} 500 points'
+  challenge:
+  - ' &e{player}&7 has finished the &d{cap-type}&7: <hover=[&7{description}]>&5{adv}</text>'
+  - '[cmd] minecraft:experience add {player} 1000 points'
+  custom:
+  - ' &e{player} &7has made the {low-type} <hover=[&7{description}]>&b{adv}</text>'
+minecraft:
+  nether:
+    obtain_crying_obsidian: type.task
+    distract_piglin: type.task
+    all_potions: type.challenge
+    create_beacon: type.task
+    brew_potion: type.task
+    explore_nether: type.challenge
+    ride_strider: type.task
+    all_effects: type.challenge
+    get_wither_skull: type.task
+    obtain_blaze_rod: type.task
+    loot_bastion: type.task
+    charge_respawn_anchor: type.task
+    return_to_sender: type.challenge
+    find_bastion: type.task
+    ride_strider_in_overworld_lava: type.task
+    obtain_ancient_debris: type.task
+    create_full_beacon: type.goal
+    summon_wither: type.task
+    fast_travel: type.challenge
+    use_lodestone: type.task
+    uneasy_alliance: type.challenge
+    find_fortress: type.task
+    netherite_armor: type.challenge
+  husbandry:
+    allay_deliver_item_to_player: type.task
+    froglights: type.challenge
+    ride_a_boat_with_a_goat: type.task
+    tame_an_animal: type.task
+    make_a_sign_glow: type.task
+    leash_all_frog_variants: type.task
+    fishy_business: type.task
+    bred_all_animals: type.challenge
+    tactical_fishing: type.task
+    silk_touch_nest: type.task
+    tadpole_in_a_bucket: type.task
+    wax_off: type.task
+    obtain_netherite_hoe: type.challenge
+    plant_seed: type.task
+    axolotl_in_a_bucket: type.task
+    allay_deliver_cake_to_note_block: type.challenge
+    wax_on: type.task
+    balanced_diet: type.challenge
+    safely_harvest_honey: type.task
+    kill_axolotl_target: type.task
+    breed_an_animal: type.task
+    complete_catalogue: type.challenge
+  story:
+    obtain_armor: type.task
+    lava_bucket: type.task
+    deflect_arrow: type.task
+    iron_tools: type.task
+    mine_stone: type.task
+    enter_the_nether: type.task
+    upgrade_tools: type.task
+    cure_zombie_villager: type.goal
+    form_obsidian: type.task
+    smelt_iron: type.task
+    shiny_gear: type.task
+    enchant_item: type.task
+    follow_ender_eye: type.task
+    mine_diamond: type.task
+    enter_the_end: type.task
+  adventure:
+    very_very_frightening: type.task
+    lightning_rod_with_villager_no_fire: type.task
+    kill_mob_near_sculk_catalyst: type.challenge
+    fall_from_world_height: type.task
+    sniper_duel: type.challenge
+    bullseye: type.challenge
+    two_birds_one_arrow: type.challenge
+    whos_the_pillager_now: type.task
+    walk_on_powder_snow_with_leather_boots: type.task
+    shoot_arrow: type.task
+    arbalistic: type.challenge
+    summon_iron_golem: type.goal
+    avoid_vibration: type.task
+    sleep_in_bed: type.task
+    kill_all_mobs: type.challenge
+    voluntary_exile: type.task
+    spyglass_at_parrot: type.task
+    totem_of_undying: type.goal
+    kill_a_mob: type.task
+    adventuring_time: type.challenge
+    spyglass_at_dragon: type.task
+    trade_at_world_height: type.task
+    play_jukebox_in_meadows: type.task
+    hero_of_the_village: type.challenge
+    trade: type.task
+    spyglass_at_ghast: type.task
+    throw_trident: type.task
+    honey_block_slide: type.task
+    ol_betsy: type.task
+  end:
+    kill_dragon: type.task
+    dragon_egg: type.goal
+    levitate: type.challenge
+    find_end_city: type.task
+    enter_end_gateway: type.task
+    respawn_dragon: type.goal
+    elytra: type.goal
+    dragon_breath: type.goal
