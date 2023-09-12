@@ -10,6 +10,7 @@ placeholders:
   PlaceholderAPI:
     enabled: true
     default-refresh-interval-ticks: 200
+    expand-short-format: true
 image-rendering:
   solid-pixel: \u2588
   transparent-pixel: '&7 \u23B9 '
@@ -32,3 +33,4 @@ time:
   zone: GMT+1
 update-notification: true
 debug: false
+holograms-view-range: 48
